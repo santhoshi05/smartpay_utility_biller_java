@@ -1,11 +1,6 @@
 interface Billable {
 	double calculateTotal(int units);
 }
-class MeterException extends Exception{
-	public MeterException(String msg){
-		super(msg);
-	}
-}
 public class UtilityBill implements Billable {
 	private double taxAmount;
 	@Override
