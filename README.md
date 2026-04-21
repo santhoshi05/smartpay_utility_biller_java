@@ -1,6 +1,6 @@
 ## PROJECT DESCRIPTION
 SmartPay Utility Biller is a Core Java console-based application developed to calculate electricity or water bills based on units consumed. It uses a menu-driven approach to allow users to generate multiple bills and provides a formatted digital receipt. The system also ensures proper validation using custom exception handling to avoid incorrect meter readings.
-BILLING LOGIC:
+## BILLING LOGIC
 For first 100 units - $1 per unit
 For units between 101–300 - $2 per unit
 For units above 300 - $5 per unit
